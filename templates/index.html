@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Content Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Content Analyzer</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="fileInput" name="file" accept=".pdf,.png,.jpg,.jpeg" required>
+            <button type="submit">Analyze</button>
+        </form>
+
+        <div id="result">
+            <h3>Extracted Text:</h3>
+            <pre id="outputText"></pre>
+            <h3>Analysis:</h3>
+            <p id="analysis"></p>
+            <h3>Recommendation:</h3>
+            <p id="recommendation"></p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

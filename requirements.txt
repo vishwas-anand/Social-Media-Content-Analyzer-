@@ -1,0 +1,7 @@
+Flask
+pymupdf
+pytesseract
+Pillow
+vaderSentiment
+PyPDF2
+
