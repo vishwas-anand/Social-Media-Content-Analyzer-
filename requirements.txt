@@ -15,8 +15,8 @@ fonttools==4.53.0
 googlemaps==4.10.0
 idna==3.10
 itsdangerous==2.2.0
-jax==0.4.23
-jaxlib==0.4.23
+jax==0.4.34
+jaxlib==0.4.34
 ml-dtypes==0.3.2
 Jinja2==3.1.6
 kiwisolver==1.4.5
