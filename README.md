@@ -90,12 +90,31 @@ python app.py
 App runs at: http://127.0.0.1:5000
 
 🎯 Usage
+
 Open the app in your browser
 
 Upload a PDF or image file
 
 Extracted text and analysis (word & sentence count + recommendation) will be displayed
 
-📧 Contact
-Developer: Vishwas Anand
-GitHub: @vishwas-anand
+🚨 Note: Deployment not live due to server config issues.  
+To test locally:
+1. Clone repo
+2. Install dependencies
+3. Install Tesseract
+4. Run `python app.py`
+
+This project includes a render.yaml config for Render.
+However, due to server issues with Tesseract installation, the hosted deployment is not currently live.
+
+➡️ To test locally, please follow the installation steps above.
+
+📝 Approach
+
+I built a Flask-based web application that allows users to upload PDF and image files. The backend extracts text from PDFs using PyPDF2 and from images using Tesseract OCR with Pillow for preprocessing. After extraction, the text is analyzed with simple NLP-like steps such as word count and sentence detection. Based on the analysis, the app provides basic readability recommendations (e.g., add more detail, or simplify long sentences).
+
+The frontend is minimal, built with HTML templates, a CSS stylesheet, and a small JavaScript file for handling file uploads and displaying results dynamically. I included basic error handling for empty uploads, unsupported formats, and missing files. The app stores files temporarily in an uploads folder for processing.
+
+The goal was to keep the project simple, functional, and easy to run locally. It requires Python 3.12+, Tesseract OCR installed on the system, and dependencies listed in requirements.txt. Although Render deployment did not succeed due to OCR library installation issues, the application runs locally without issues.
+
+This project demonstrates my ability to build a complete, end-to-end application within the time limit, focusing on problem-solving, clean code, and usability.
