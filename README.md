@@ -45,7 +45,7 @@ Social-Media-Content-Analyzer/
 └── README.md               # Documentation
 ⚙️ Installation & Setup
 Prerequisites
-Python 3.12+
+Python 3.12.3
 
 Tesseract OCR installed on your system
 
