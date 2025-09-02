@@ -115,6 +115,6 @@ I built a Flask-based web application that allows users to upload PDF and image 
 
 The frontend is minimal, built with HTML templates, a CSS stylesheet, and a small JavaScript file for handling file uploads and displaying results dynamically. I included basic error handling for empty uploads, unsupported formats, and missing files. The app stores files temporarily in an uploads folder for processing.
 
-The goal was to keep the project simple, functional, and easy to run locally. It requires Python 3.12+, Tesseract OCR installed on the system, and dependencies listed in requirements.txt. Although Render deployment did not succeed due to OCR library installation issues, the application runs locally without issues.
+The goal was to keep the project simple, functional, and easy to run locally. It requires Python 3.12.3, Tesseract OCR installed on the system, and dependencies listed in requirements.txt. Although Render deployment did not succeed due to OCR library installation issues, the application runs locally without issues.
 
 This project demonstrates my ability to build a complete, end-to-end application within the time limit, focusing on problem-solving, clean code, and usability.
